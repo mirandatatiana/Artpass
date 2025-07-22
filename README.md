@@ -42,18 +42,18 @@ export default function Home() {
 ```
 
 Installation & Setup
-	1.	Clone the repository:
+1.	Clone the repository:
 
 git clone https://github.com/mirandatatiana/ArtPass.git
 cd my-app
 
 
-	2.	Install dependencies:
-
+2.	Install dependencies:
+```
 npm install
 # or
 yarn
-
+```
 3. **Ensure your `package.json` scripts** include:
 ```json
 "scripts": {
@@ -61,23 +61,21 @@ yarn
   "build": "next build",
   "start": "next start"
 }
-
+```
 4.	Run the dev server:
-
+````
 npm run dev
 # or
-
-
-
 yarn dev
-
-5. **Open** [http://localhost:3000](http://localhost:3000) in your browser.
 ````
+5. **Open** [http://localhost:3000](http://localhost:3000) in your browser.
+
 ## Tailwind Configuration
 
 Make sure `tailwind.config.js` has:
 
-```js
+```
+js
 module.exports = {
 content: [
  './app/**/*.{js,ts,jsx,tsx}',
