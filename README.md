@@ -62,7 +62,7 @@ yarn
   "start": "next start"
 }
 
-	4.	Run the dev server:
+4.	Run the dev server:
 
 npm run dev
 # or
